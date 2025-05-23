@@ -13,7 +13,7 @@ pipeline {
         }
         stage('Code Analysis') {
             steps {
-                sh \"echo 'Using pylint to analyze code quality and enforce standards.'\""
+                sh "echo 'Using pylint to analyze code quality and enforce standards.'"
             }
         }
         stage('Security Scan') {
